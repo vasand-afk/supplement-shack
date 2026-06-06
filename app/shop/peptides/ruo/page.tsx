@@ -91,6 +91,25 @@ export default function RuoPeptidesPage() {
           ))}
         </div>
 
+        {/* Tirzepatide informational card */}
+        <div className="mt-10 bg-[#18181B] border border-yellow-800/40 rounded-2xl p-6">
+          <div className="flex items-start gap-4">
+            <span className="text-3xl">💉</span>
+            <div>
+              <div className="flex items-center gap-3 mb-2">
+                <h3 className="text-base font-bold text-white">Tirzepatide</h3>
+                <span className="text-[10px] font-bold bg-yellow-900/40 border border-yellow-700/40 text-yellow-400 px-2 py-0.5 rounded-full uppercase tracking-wide">Rx Only — Not Available</span>
+              </div>
+              <p className="text-sm text-[#A1A1AA] leading-relaxed mb-3">
+                Tirzepatide (Mounjaro®, Zepbound®) is a dual GIP/GLP-1 receptor agonist approved by the FDA for type 2 diabetes and weight management. Because it is an <strong className="text-white">FDA-approved prescription drug</strong>, it cannot be sold as a research chemical or supplement — it is only legally dispensed by a licensed compounding pharmacy with a valid prescription from a licensed physician.
+              </p>
+              <p className="text-xs text-[#71717A]">
+                Looking for a GLP-1/GIP class research compound? See <strong className="text-[#A78BFA]">Retatrutide (RUO)</strong> above — a triple agonist (GLP-1 + GIP + glucagon) currently in Phase 3 trials and available for in vitro research.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Bottom disclaimer */}
         <div className="mt-12 p-6 bg-[#0D0D0F] border border-[#27272A] rounded-2xl text-xs text-[#52525B] leading-relaxed">
           <strong className="text-[#A1A1AA]">Legal Disclaimer:</strong> Products listed as Research Use Only are chemical

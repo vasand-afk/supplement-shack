@@ -405,6 +405,22 @@ export const products: Product[] = [
     inStock: true,
     emoji: "🧪",
   },
+  {
+    id: "retatrutide-ruo",
+    name: "Retatrutide (RUO)",
+    brand: "Supplement Shack",
+    category: "peptides-ruo",
+    price: 149.99,
+    subscribePrice: 127.49,
+    rating: 4.9,
+    reviews: 14,
+    badge: "RUO",
+    description: "Triple agonist of GLP-1, GIP, and glucagon receptors. Investigational compound currently in Phase 3 trials. 5mg lyophilized vial. ≥98% purity by HPLC/MS. For in vitro research only.",
+    keyIngredients: ["Retatrutide 5mg lyophilized", "Argon gas sealed"],
+    servings: 1,
+    inStock: true,
+    emoji: "🧪",
+  },
 
   // Wearables
   {
